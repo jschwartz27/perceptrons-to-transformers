@@ -1,0 +1,13 @@
+name: dnn
+channels:
+  - default
+dependencies:
+  - python=3.12
+  - matplotlib
+  # - seaborn
+  # - transformers
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio
